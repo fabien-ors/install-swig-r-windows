@@ -1,4 +1,4 @@
-name: install-swig-windows
+name: install-swig-windows-action
 description: "Install SWIG from source under windows runners."
 author: 'Fabien Ors'
 
