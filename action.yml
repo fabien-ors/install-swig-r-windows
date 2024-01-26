@@ -1,5 +1,5 @@
-name: install-swig-r-windows
-description: "Install SWIG for source under windows using RTools (MingGw)."
+name: install-swig-windows
+description: "Install SWIG from source under windows runners."
 author: 'Fabien Ors'
 
 inputs:
@@ -19,7 +19,7 @@ inputs:
     default: "10.39.0"
   generator:
     description: 'Generator used to compile SWIG'
-    default: "MSYS Makefiles"
+    default: "Visual Studio 16 2019"
   
 runs:
   using: "composite"
