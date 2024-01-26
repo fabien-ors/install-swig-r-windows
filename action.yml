@@ -25,7 +25,7 @@ runs:
   using: "composite"
   steps:
 
-  - name: Create a folder for compiing SWIG and installing dependencies
+  - name: Create a folder for compiling SWIG and installing dependencies
     shell: powershell
     run: |
       mkdir swig_src
