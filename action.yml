@@ -1,5 +1,5 @@
 name: install-swig-windows-action
-description: "Install SWIG from source under windows runners."
+description: "Install SWIG from source under Windows github runners."
 author: 'Fabien Ors'
 
 inputs:
